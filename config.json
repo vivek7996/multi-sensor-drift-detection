@@ -1,0 +1,20 @@
+{
+  "window_size": 50,
+  "step": 25,
+  "latent_dim": 8,
+  "modalities": [
+    "sensors"
+  ],
+  "ae_hidden": [
+    64,
+    32
+  ],
+  "transition_hidden": [
+    64,
+    32
+  ],
+  "ae_state_path": "ae_sensors.pth",
+  "trans_state_path": "trans_model.pth",
+  "z_path": "Z_concat.npy",
+  "scaler_path": "scaler_sensors.pkl"
+}
